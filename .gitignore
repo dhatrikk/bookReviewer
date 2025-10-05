@@ -1,0 +1,59 @@
+# ======================
+# Node.js / NPM
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Environment Files
+# ======================
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# ======================
+# Build / Output folders
+# ======================
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ======================
+# Coverage / Test
+# ======================
+coverage/
+*.lcov
+
+# ======================
+# Optional: Frontend specific
+# ======================
+frontend/.cache/
+frontend/.next/
+frontend/.turbo/
+frontend/out/

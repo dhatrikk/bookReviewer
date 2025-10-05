@@ -1,67 +1,136 @@
 <h1 align="center">📚 BOOKREVIEWER</h1>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x200?text=BOOKREVIEWER" alt="BOOKREVIEWER Banner">
+  <strong>BOOKREVIEWER</strong> is a full-featured <strong>book review and management application</strong> built using the <strong>MERN stack</strong> — MongoDB, Express, React, and Node.js.<br>
+  Users can browse books, post reviews with star ratings, manage their favorites, and admins can oversee books and users with dedicated privileges.
 </p>
 
 <p align="center">
-  <strong>BOOKREVIEWER</strong> is a full-featured <strong>book review and management application</strong> built with the <strong>MERN stack</strong> (MongoDB, Express, React, Node.js). Users can browse books, leave reviews with star ratings, manage favorites, and admins can manage books and users.
+  🔗 <a href="https://book-reviewer-jet.vercel.app/">Live Frontend</a> |
+  🖥️ <a href="https://bookreviewer-0tw2.onrender.com/">Backend API</a>
 </p>
 
 <hr>
 
-<h2>🌟 Features</h2>
+## 🌟 Features
 
-<h3>🔐 User Authentication</h3>
-<ul>
-  <li>Secure registration and login system</li>
-  <li>Passwords hashed using <strong>Bcrypt</strong></li>
-</ul>
+### 🔐 User Authentication
+- Secure user registration and login system  
+- Passwords encrypted using **Bcrypt**  
+- JWT-based authentication for protected routes  
 
-<h3>📖 Book Listings & Reviews</h3>
-<ul>
-  <li>Browse, search, and view books</li>
-  <li>Leave reviews with star ratings</li>
-  <li>Community insights from user reviews</li>
-</ul>
+### 📖 Book Listings & Reviews
+- Browse, search, and view book details  
+- Leave reviews with star ratings  
+- View community insights from user feedback  
 
-<h3>👤 User Profiles</h3>
-<ul>
-  <li>Track personal activity and favorites</li>
-  <li>Manage curated book lists</li>
-</ul>
+### 👤 User Profiles
+- Track personal activity and favorite books  
+- Manage curated reading lists  
 
-<h3>⚡ User Roles & Permissions</h3>
-<ul>
-  <li>Differentiation between <strong>regular users</strong> and <strong>admins</strong></li>
-  <li>Admins can <strong>add, edit, and delete books</strong></li>
-  <li>Admins can <strong>manage user data and roles</strong></li>
-</ul>
+### ⚡ User Roles & Permissions
+- Role-based access control for **users** and **admins**  
+- Admins can **add, edit, and delete books**  
+- Admins can **manage users and roles**  
 
 <hr>
 
-<h2>🛠 Technologies</h2>
+## 🛠️ Technologies Used
 
-<h3>Frontend</h3>
-<ul>
-  <li>React.js</li>
-  <li>Tailwind CSS</li>
-  <li>Shadcn UI library</li>
-  <li>React Hook Form</li>
-</ul>
+### 🖥️ Frontend
+- **React.js** – Component-based UI  
+- **Tailwind CSS** – Responsive and modern styling  
+- **Shadcn/UI** – Prebuilt UI components for enhanced UX  
+- **React Hook Form** – Form handling and validation  
+- **Recoil** – Global state management  
 
-<h3>Backend</h3>
-<ul>
-  <li>Node.js & Express.js</li>
-  <li>MongoDB & Mongoose</li>
-  <li>Bcrypt for password hashing</li>
-  <li>CORS for cross-origin requests</li>
-</ul>
+### ⚙️ Backend
+- **Node.js** & **Express.js** – RESTful API and server  
+- **MongoDB** with **Mongoose** – Database and schema modeling  
+- **Bcrypt** – Secure password hashing  
+- **CORS** – Cross-origin request handling  
+- **JWT** – Authentication and session management  
 
-<h3>Other Tools</h3>
-<ul>
-  <li>Axios for HTTP requests</li>
-  <li>Cloudinary for optional image uploads</li>
-</ul>
+### 🔧 Other Tools & Integrations
+- **Axios** – HTTP client for API requests  
+- **Cloudinary** – Image hosting and management (optional)  
+- **Dotenv** – Secure environment variable management  
 
 <hr>
+
+## 🚀 Deployment
+
+- **Frontend:** Hosted on [Vercel](https://book-reviewer-jet.vercel.app/)  
+- **Backend:** Hosted on [Render](https://bookreviewer-0tw2.onrender.com/)  
+- **Database:** MongoDB Atlas  
+
+<hr>
+
+## 🧑‍💻 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/dhatrikk/bookReviewer.git
+cd bookreviewer
+````
+
+### 2. Install Dependencies
+
+```bash
+# For backend
+cd backend
+npm install
+
+# For frontend
+cd ../frontend
+npm install
+```
+
+### 3. Set Environment Variables
+
+Create a `.env` file in the backend directory:
+
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+CLOUDINARY_URL=your_cloudinary_url (optional)
+```
+
+### 4. Run the Application
+
+```bash
+# Run backend
+cd backend
+npm start
+
+# Run frontend
+cd ../frontend
+npm run dev
+```
+
+App will be available at `http://localhost:5173`.
+
+<hr>
+
+## 📸 Preview
+
+![Book Reviewer Screenshot](https://via.placeholder.com/1000x500?text=Book+Reviewer+Preview)
+
+<hr>
+
+## 🏗️ Future Enhancements
+
+* AI-powered book recommendations
+* Personalized reading dashboards
+* Email notifications for new reviews
+* Advanced search and filtering options
+
+<hr>
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<h3 align="center">⭐ If you like this project, consider giving it a star!</h3>

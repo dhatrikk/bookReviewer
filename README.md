@@ -1,59 +1,67 @@
-BOOKREVIEWER
+<h1 align="center">📚 BOOKREVIEWER</h1>
 
-BOOKREVIEWER is a full-featured book review and management application built with the MERN stack (MongoDB, Express, React, Node.js). Users can browse books, leave reviews with star ratings, manage favorites, and admins can manage books and users.
+<p align="center">
+  <img src="https://via.placeholder.com/800x200?text=BOOKREVIEWER" alt="BOOKREVIEWER Banner">
+</p>
 
-🌟 Features
-User Authentication
+<p align="center">
+  <strong>BOOKREVIEWER</strong> is a full-featured <strong>book review and management application</strong> built with the <strong>MERN stack</strong> (MongoDB, Express, React, Node.js). Users can browse books, leave reviews with star ratings, manage favorites, and admins can manage books and users.
+</p>
 
-Secure registration and login system
+<hr>
 
-Passwords hashed using Bcrypt
+<h2>🌟 Features</h2>
 
-Book Listings & Reviews
+<h3>🔐 User Authentication</h3>
+<ul>
+  <li>Secure registration and login system</li>
+  <li>Passwords hashed using <strong>Bcrypt</strong></li>
+</ul>
 
-Browse, search, and view books
+<h3>📖 Book Listings & Reviews</h3>
+<ul>
+  <li>Browse, search, and view books</li>
+  <li>Leave reviews with star ratings</li>
+  <li>Community insights from user reviews</li>
+</ul>
 
-Leave reviews with star ratings
+<h3>👤 User Profiles</h3>
+<ul>
+  <li>Track personal activity and favorites</li>
+  <li>Manage curated book lists</li>
+</ul>
 
-Gain community insights from user reviews
+<h3>⚡ User Roles & Permissions</h3>
+<ul>
+  <li>Differentiation between <strong>regular users</strong> and <strong>admins</strong></li>
+  <li>Admins can <strong>add, edit, and delete books</strong></li>
+  <li>Admins can <strong>manage user data and roles</strong></li>
+</ul>
 
-User Profiles
+<hr>
 
-Track personal activity and favorites
+<h2>🛠 Technologies</h2>
 
-Manage curated book lists
+<h3>Frontend</h3>
+<ul>
+  <li>React.js</li>
+  <li>Tailwind CSS</li>
+  <li>Shadcn UI library</li>
+  <li>React Hook Form</li>
+</ul>
 
-User Roles & Permissions
+<h3>Backend</h3>
+<ul>
+  <li>Node.js & Express.js</li>
+  <li>MongoDB & Mongoose</li>
+  <li>Bcrypt for password hashing</li>
+  <li>CORS for cross-origin requests</li>
+</ul>
 
-Differentiation between regular users and admins
+<h3>Other Tools</h3>
+<ul>
+  <li>Axios for HTTP requests</li>
+  <li>Cloudinary for optional image uploads</li>
+</ul>
 
-Admins can add, edit, and delete books
-
-Admins can manage user data and roles
-
-🛠 Technologies
-Frontend
-
-React.js
-
-Tailwind CSS
-
-Shadcn UI library
-
-React Hook Form
-
-Backend
-
-Node.js & Express.js
-
-MongoDB & Mongoose
-
-Bcrypt for password hashing
-
-CORS for cross-origin requests
-
-Other Tools
-
-Axios for HTTP requests
-
-Cloudinary for optional image uploads
+<hr>

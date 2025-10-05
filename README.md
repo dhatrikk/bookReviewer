@@ -3,7 +3,6 @@ BOOKREVIEWER
 BOOKREVIEWER is a full-featured book review and management application built with the MERN stack (MongoDB, Express, React, Node.js). Users can browse books, leave reviews with star ratings, manage favorites, and admins can manage books and users.
 
 🌟 Features
-
 User Authentication
 
 Secure registration and login system
@@ -16,7 +15,7 @@ Browse, search, and view books
 
 Leave reviews with star ratings
 
-Community insights from user reviews
+Gain community insights from user reviews
 
 User Profiles
 
@@ -33,7 +32,6 @@ Admins can add, edit, and delete books
 Admins can manage user data and roles
 
 🛠 Technologies
-
 Frontend
 
 React.js
